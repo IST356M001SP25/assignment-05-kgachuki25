@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Kiritu Gachuki
+Sudent Email:  kgachuki@syr.edu
 
 ## Instructions
 
@@ -22,4 +22,8 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-
+In this assignment, I learned how to set up a data pipeline to download, process, and make reports from datasets. This revolved around using
+the pandas module to extract and transform data, using merge() and concat() to combine dataframes. I had the most problems with transform.py,
+especially trying to merge and create new columns. In particular, creating the columns for combining the survey and COL datasets caused the most
+issues. What helped was displaying the dataframes at each step with streamlit so I could see what was working. Besides that, the rest of the 
+parts went smoothly, including writing the cleaning and extracting functions.
